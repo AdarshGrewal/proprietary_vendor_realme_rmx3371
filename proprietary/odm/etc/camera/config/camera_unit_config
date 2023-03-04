@@ -91,7 +91,9 @@
     "high_definition_mode": "8001",
     "star_capture_mode": "80A8",
     "star_video_mode": "80A8",
-    "street_mode": "8001"
+    "street_mode": "8001",
+    "tilt_shift_mode": "8001",
+    "tilt_Shift_fastvideo_mode": "800C"
   },
 
   "usecase_info": {
@@ -101,11 +103,8 @@
     "portrait_bokeh_case":[{"preview":"rear_main"}, {"preview":"rear_wide"}, {"capture":"rear_main"}, {"capture":"rear_wide"}],
     "single_portrait_case":[{"preview":"var_camera"}, {"capture":"front_main"}],
     "single_photo_case": [{"preview": "var_camera"}, {"capture_yuv": "var_camera"}],
-    "front_single_mfnr_photo_case":[{"preview":"var_camera"}, {"capture_yuv":"var_camera"}, {"capture_yuv_mfnr":"var_camera"}],
     "mfnr_photo_case":[{"preview":"var_camera"}, {"capture":"var_camera"}, {"capture_yuv_mfnr":"var_camera"}],
     "front_single_photo_case":[{"preview":"var_camera"}, {"capture":"var_camera"}],
-    "front_single_mfnr_portrait_case":[{"preview":"var_camera"}, {"capture_yuv":"var_camera"}, {"capture_yuv_mfnr":"var_camera"}],
-    "front_mfnr_night_case":[{"reprocess_input":"front_main"}, {"preview":"front_main"}, {"raw_output":"front_main"}, {"capture":"front_main"}],
     "recorder_video_case":[{"preview":"var_camera"}, {"video_recorder":"var_camera"}],
     "video_recorder_snapshot_case":[{"preview":"var_camera"}, {"capture":"var_camera"}, {"video_recorder":"var_camera"}],
     "video_frame_snapshot_case":[{"preview":"var_camera"}, {"capture":"var_camera"}, {"video":"var_camera"}],
@@ -224,7 +223,6 @@
     "com.oplus.sat.wide.support.imagesizes": "4096X3072X4096X2304X4096X1840X3072X3072",
     "com.oplus.sat.ultra.support.imagesizes": "4624X3468X4624X2608X4624X2080X3468X3468",
     "com.oplus.sat.tele.support.imagesizes": "4000X3000X4000X2256X4000X1800X3000X3000",
-    "com.oplus.front.common.high.mfnr.picturesize": "2304x1728x3456x3456x4608x2592x4608x2080",
     "com.oplus.flash.wide.tel.support": "1",
     "com.oplus.night.pro.support": "1",
     "com.oplus.sat.need.set.zoomratio": "0"

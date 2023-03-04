@@ -31,6 +31,9 @@
             "android",
             "com.oplus.engineercamera"
         ],
+        "enable_occupied_duration_list": [
+            "com.tencent.mm"
+        ],
         "disable_camera_shutter_sound_app_list": [
             "com.facebook.orca",
             "com.facebook.orca",
@@ -61,6 +64,11 @@
     "com.teamtalk.im": {
         "previewSizeForAPI1Width": 3216,
         "previewSizeForAPI1Height": 1440
+    },
+    "com.tencent.qqmusic": {
+        "resolutionFilterForNotAddSizeAPI1": [
+            "2592x1168"
+        ]
     },
     "com.ss.android.ugc.aweme": {
         "app_enable_rio": true
@@ -109,7 +117,10 @@
         "app_enable_rio": true
     },
     "com.skype.raider": {
-        "needLimitFpsForAPI1": true
+        "needLimitFpsForAPI1": true,
+        "maxPreviewWidthForAPI2": 1920,
+        "maxPreviewHeightForAPI2": 1080,
+        "thirdPartyAppLimitPicture": true
     },
     "com.vkontakte.android": {
         "needLimitFpsForAPI1": true
@@ -138,8 +149,8 @@
     },
     "autotest.oppo.com.simulatedlivebroadcast": {
         "thirdPartyAppLimitPicture":true,
-        "thirdPartyAppWidthLimitForCam0API2":4608,
-        "thirdPartyAppHeightLimitForCam0API2":3456,
+        "thirdPartyAppWidthLimitForCam0API2":4624,
+        "thirdPartyAppHeightLimitForCam0API2":3468,
         "thirdPartyAppWidthLimitForCam1API2":2400,
         "thirdPartyAppHeightLimitForCam1API2":1792,
         "resolutionFilterForNotAddSizeAPI1": [
@@ -149,5 +160,19 @@
             "4608x3456",
             "2592x1944"
         ]
+    },
+    "com.manboker.headportrait":{
+        "previewSizeForAPI1Width": 2160,
+        "previewSizeForAPI1Height": 1080
+    },
+    "im.kumu.ph":{
+        "previewSizeForAPI1Width": 2304,
+        "previewSizeForAPI1Height": 1046,
+        "feature_resolution_enable":true
+    },
+    "com.tencent.mobileqq":{
+        "maxPreviewWidthForAPI2": 1080,
+        "maxPreviewHeightForAPI2": 2400,
+        "thirdPartyAppLimitPicture": true
     }
 }

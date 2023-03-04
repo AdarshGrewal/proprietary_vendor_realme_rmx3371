@@ -44,13 +44,6 @@
 },
 
 {
-  "VendorTag": "com.oplus.aps.support.night.se",
-  "Type": "Int32",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
   "VendorTag": "com.oplus.super.night.range.max.zoom.ratio",
   "Type": "Float",
   "Count": "1",
@@ -2146,5 +2139,26 @@
   "Count": "1",
   "Value": "1",
   "Comment": "version3.0 set 1;version4.0:(light scene:1;heavy scene:2;draw scene:4;list pick:8;default 1)"
+},
+
+{
+  "VendorTag": "com.oplus.fwkOmoji",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.aps.iso.jpegtoraw",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.aps.support.night.se",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "1"
 }
 ]

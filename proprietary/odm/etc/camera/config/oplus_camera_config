@@ -44,13 +44,6 @@
 },
 
 {
-    "VendorTag": "com.oplus.night.offline.r2y",
-    "Type": "Byte",
-    "Count": "1",
-    "Value": "1"
-},
-
-{
   "VendorTag": "com.oplus.track.focus.ultra.wide.support",
   "Type": "Byte",
   "Count": "1",
@@ -139,13 +132,6 @@
   "Type": "Int32",
   "Count": "2",
   "Value": "4000x3000"
-},
-
-{
-  "VendorTag": "com.oplus.front.night.raw.picturesize",
-  "Type": "Int32",
-  "Count": "2",
-  "Value": "3280x2464"
 },
 
 {
@@ -527,7 +513,7 @@
 },
 
 {
-  "VendorTag": "com.oplus.ui.shutterbutton.type.lowlight",
+  "VendorTag": "com.oplus.feature.night.front.zsl.disabled",
   "Type": "Byte",
   "Count": "1",
   "Value": "1"
@@ -876,6 +862,20 @@
 },
 
 {
+  "VendorTag": "com.oplus.night.offline.r2y",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.offline.r2y.disable.in.night",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
   "VendorTag": "com.oplus.feature.slow.video.zoom.support",
   "Type": "Byte",
   "Count": "1",
@@ -981,6 +981,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.setting.se.night.switch",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
    "VendorTag": "com.oplus.rear.portrait.previewsize",
    "Type": "Int32",
    "Count": "2",
@@ -1026,7 +1033,7 @@
   "VendorTag": "com.oplus.hal.memory.portrait",
   "Type": "Int32",
   "Count": "1",
-  "Value": "1100"
+  "Value": "1200"
 },
 
 {
@@ -1243,6 +1250,27 @@
    "Type": "Int32",
    "Count": "1",
    "Value": "5"
+},
+
+{
+  "VendorTag": "com.oplus.burning.screen.prevent.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "0"
+},
+
+{
+  "VendorTag": "com.oplus.feature.continuous.gallery.pre.decode.enable",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "0"
+},
+
+{
+    "VendorTag": "com.oplus.night.offline.r2y",
+    "Type": "Byte",
+    "Count": "1",
+    "Value": "1"
 }
 ]
 

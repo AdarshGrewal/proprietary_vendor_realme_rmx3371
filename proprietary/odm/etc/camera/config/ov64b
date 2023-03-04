@@ -69,7 +69,7 @@
 
 {
   "Key": "NIGHT_SCENE_CAMERA_MODE",
-  "Value": "1430"
+  "Value": "1467"
 },
 
 {
@@ -1543,7 +1543,7 @@
 {
   "VendorTag": "aps.params.snapshot.hdr.face",
   "Type": "Float",
-  "Count": "137",
+  "Count": "152",
   "Value": "
             0 /* needNcf */,
 
